@@ -80,7 +80,10 @@ export default function Hero() {
     )
 
   return (
-    <section id="top">
+    <section
+      id="top"
+      className="relative overflow-hidden flex flex-col lg:block lg:min-h-screen"
+    >
       <Navbar />
 
       {/* ---------- Background video ---------- */}
