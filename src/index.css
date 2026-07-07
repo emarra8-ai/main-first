@@ -46,6 +46,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Dark base so any overscroll / rubber-band area stays black */
+html,
+body {
+  background-color: #000;
+}
+
 /* Respect users who prefer reduced motion */
 @media (prefers-reduced-motion: reduce) {
   html {

@@ -15,19 +15,19 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed top-0 inset-x-0 z-10 px-5 sm:px-8 py-4 sm:py-5 flex flex-row justify-between items-center bg-transparent">
+      <header className="fixed top-0 inset-x-0 z-20 px-5 sm:px-8 py-4 sm:py-5 flex flex-row justify-between items-center bg-transparent">
         {/* Logo (left) — ✏️ EDIT your name / wordmark here */}
         <a href="#top" onClick={close} className="flex flex-row items-center gap-3">
-          <span className="text-[21px] sm:text-[26px] tracking-tight text-black font-medium select-none">
+          <span className="text-[21px] sm:text-[26px] tracking-tight text-white font-medium select-none">
             Emiliano&nbsp;Marra
           </span>
-          <span className="text-[25px] sm:text-[30px] text-[#8E2A24] select-none tracking-[-0.02em] font-medium leading-none mb-1">
+          <span className="text-[25px] sm:text-[30px] text-[#E0754A] select-none tracking-[-0.02em] font-medium leading-none mb-1">
             &#10033;
           </span>
         </a>
 
         {/* Desktop nav links (center) */}
-        <nav className="hidden md:flex flex-row text-[23px] text-black">
+        <nav className="hidden md:flex flex-row text-[23px] text-white/90">
           {NAV_LINKS.map((link, i) => (
             <span key={link.href} className="flex flex-row items-center">
               <a
@@ -46,7 +46,7 @@ export default function Navbar() {
         {/* Desktop CTA (right) */}
         <a
           href="#contact"
-          className="hidden md:inline-block text-[23px] text-black underline underline-offset-2 hover:opacity-60 transition-opacity"
+          className="hidden md:inline-block text-[23px] text-white underline underline-offset-2 hover:opacity-60 transition-opacity"
         >
           Get in touch
         </a>
@@ -60,17 +60,17 @@ export default function Navbar() {
           className="md:hidden flex flex-col justify-center items-center gap-[6px] w-8 h-8"
         >
           <span
-            className={`w-6 h-[2px] bg-black transition-all duration-300 ${
+            className={`w-6 h-[2px] bg-white transition-all duration-300 ${
               isMobileMenuOpen ? 'rotate-45 translate-y-[7px]' : ''
             }`}
           />
           <span
-            className={`w-6 h-[2px] bg-black transition-all duration-300 ${
+            className={`w-6 h-[2px] bg-white transition-all duration-300 ${
               isMobileMenuOpen ? 'opacity-0' : ''
             }`}
           />
           <span
-            className={`w-6 h-[2px] bg-black transition-all duration-300 ${
+            className={`w-6 h-[2px] bg-white transition-all duration-300 ${
               isMobileMenuOpen ? '-rotate-45 -translate-y-[7px]' : ''
             }`}
           />
@@ -79,7 +79,7 @@ export default function Navbar() {
 
       {/* Full-screen mobile overlay */}
       <div
-        className={`md:hidden fixed inset-0 z-[9] bg-white/95 backdrop-blur-sm transition-opacity duration-300 flex flex-col items-center justify-center gap-8 ${
+        className={`md:hidden fixed inset-0 z-[15] bg-black/95 backdrop-blur-sm transition-opacity duration-300 flex flex-col items-center justify-center gap-8 ${
           isMobileMenuOpen
             ? 'opacity-100 pointer-events-auto'
             : 'opacity-0 pointer-events-none'
@@ -90,7 +90,7 @@ export default function Navbar() {
             key={link.href}
             href={link.href}
             onClick={close}
-            className="text-3xl font-medium text-black hover:opacity-60 transition-opacity"
+            className="text-3xl font-medium text-white hover:opacity-60 transition-opacity"
           >
             {link.label}
           </a>
@@ -98,7 +98,7 @@ export default function Navbar() {
         <a
           href="#contact"
           onClick={close}
-          className="text-3xl font-medium text-[#8E2A24] underline underline-offset-4"
+          className="text-3xl font-medium text-[#E0754A] underline underline-offset-4"
         >
           Get in touch
         </a>
