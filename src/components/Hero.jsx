@@ -5,7 +5,7 @@ import Navbar from './Navbar.jsx'
 import { useTypewriter } from '../hooks/useTypewriter.js'
 
 // ✏️ EDIT: the pills a visitor can pick. Keep them short.
-const SERVICE_OPTIONS = ['Pizza ovens', 'Mixers', 'Pasta tools', 'Consulting']
+const SERVICE_OPTIONS = ['Consulting', 'Product design', 'Operations', 'Partnerships']
 
 // ✏️ EDIT: background video. This is the clip you provided. To use your own,
 // upload an .mp4 and paste its URL here (or drop a file in /public and use
@@ -70,7 +70,7 @@ export default function Hero() {
 
   // ---- Typewriter headline ----
   // ✏️ EDIT: your hero headline. \n forces a line break.
-  const { displayed, done } = useTypewriter("let's build the\nright kitchen.")
+  const { displayed, done } = useTypewriter("let's build\nsomething great.")
 
   // ---- Interactive service pills ----
   const [services, setServices] = useState([])
@@ -127,10 +127,10 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
           >
             <p className="text-lg md:text-xl text-[#6B5D52] leading-relaxed font-normal mb-14 max-w-2xl">
-              I&rsquo;m Emiliano Marra, a restaurant equipment specialist in
-              Washington, D.C. <br />
-              Tell me what your kitchen needs and let&rsquo;s find the right gear
-              &mdash; try it before you buy.
+              I&rsquo;m Emiliano Marra &mdash; operations executive, inventor, and
+              engineer. <br />
+              I co-found and build cooking-equipment companies, and I hold a U.S.
+              patent for a multipurpose cooking appliance.
             </p>
           </motion.div>
 
@@ -142,7 +142,7 @@ export default function Hero() {
             className="max-w-2xl"
           >
             <h2 className="text-2xl font-medium tracking-tight mb-2 text-[#2B211C]">
-              What are you looking for?
+              What can I help with?
             </h2>
             <p className="opacity-85 text-[#9A7B5E] mb-8">Select all that apply</p>
 

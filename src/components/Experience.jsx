@@ -1,37 +1,42 @@
 import Reveal from './Reveal.jsx'
 
-// ✏️ EDIT: your timeline. `period` is intentionally flexible — drop in real
-// years (e.g. "2018 — Present") when you're ready.
+// ✏️ EDIT: your timeline (most recent first). Pulled from your resume.
 const TIMELINE = [
   {
-    period: 'Origins',
-    place: 'Naples, Italy',
-    title: 'Raised on the real thing',
-    body: 'Grew up in Naples surrounded by pizza craft and an uncompromising standard for authentic Italian food.',
+    period: 'Jan 2017 – Dec 2020',
+    place: 'No.1 Grills',
+    title: 'Owner / CEO / Inventor / Engineer',
+    body: 'Founded No.1 Grills and invented the industry-first Multipurpose Cooking Appliance — oven, griddle, smoker, rotisserie, charcoal and gas grill in one — synergizing traditional cooking with advanced engineering, quality control, and regulatory compliance.',
   },
   {
-    period: '20+ years',
-    place: 'Washington, D.C.',
-    title: 'Italian food-service & restaurants',
-    body: 'Built a career across the D.C.-region restaurant industry, learning kitchens from the inside — what works on the line and what doesn’t.',
+    period: 'Jan 2013 – Present',
+    place: 'U.S. Patent 9,980,606',
+    title: 'Inventor — Multipurpose Cooking Appliance',
+    body: 'A multisided, rotatable cooking element with more than one cooking surface and multiple heat sources — gas, electric, wood, or charcoal — letting a user grill, bake, sear, fry, sauté, or smoke, separately or simultaneously.',
   },
   {
-    period: 'Co-founder',
+    period: 'Aug 2011 – Jan 2017',
+    place: 'Marra Forni',
+    title: 'Co-Founder & Vice President',
+    body: 'Helped build one of the fastest-growing, most innovative brick-oven manufacturers in the U.S. — Neapolitan, rotator, electric, and mobile ovens — driving engineering results above target and expanding the line to prep tables, dough mixers, and venting systems.',
+  },
+  {
+    period: 'Jan 2007 – Aug 2011',
+    place: 'Euro Restaurant Solutions (DBA Marra Forni)',
+    title: 'Co-Founder & Vice President',
+    body: 'Co-founded the company behind Marra Forni, establishing the operations, product, and go-to-market foundations that powered its growth.',
+  },
+  {
+    period: '1999 – 2014',
     place: 'Euro Gourmet',
-    title: 'Specialty-food importing',
-    body: 'Co-founded a specialty-food import business, bringing authentic Italian products to restaurants and retailers in the region.',
+    title: 'Co-Founder & Vice President',
+    body: 'Co-founded a specialty-food business; built partnerships with Whole Foods, Balducci’s, Cheesecake Factory, Serafina and 100+ retailers, plus sponsorships with Food Network & Bravo TV and a national dealer/distributor network.',
   },
   {
-    period: 'Advisory',
-    place: 'Restaurant consulting',
-    title: 'Helping owners get it right',
-    body: 'Consulted for restaurants on concept, kitchen, and operations — matching the right equipment and process to each team.',
-  },
-  {
-    period: 'Present',
-    place: 'Italiana FoodTech',
-    title: 'Director of Sales & Business Development',
-    body: 'Lead sales and business development for a distributor of professional Italian kitchen equipment, with a Try-Before-You-Buy showroom for restaurants.',
+    period: 'Education & credentials',
+    place: 'BS, Electrical Engineering (1995)',
+    title: 'Engineer, chef, sommelier, pizzaiolo',
+    body: 'Certified Sommelier, Vera Pizza Napoletana Pizzaiolo, Executive Chef, Master Baker, Food Safety certified, and Accademia Italiana Staggionello cured & aged meat processing.',
   },
 ]
 
@@ -46,7 +51,7 @@ export default function Experience() {
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="font-serif text-4xl sm:text-5xl text-[#2B211C] leading-tight mb-14">
-            A path through Italian food
+            Three decades of building
           </h2>
         </Reveal>
 

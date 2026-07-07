@@ -1,27 +1,27 @@
 import Reveal from './Reveal.jsx'
-import { Flame, Cog, UtensilsCrossed, ClipboardCheck } from 'lucide-react'
+import { Lightbulb, Settings2, Ruler, Users } from 'lucide-react'
 
 // ✏️ EDIT: the four things you do. Swap icons from lucide.dev if you like.
 const SERVICES = [
   {
-    icon: Flame,
-    title: 'Pizza ovens & core equipment',
-    body: 'From deck and rotating ovens to fermentation and prep, I help you spec the setup your menu and space actually need — not the most expensive one.',
+    icon: Lightbulb,
+    title: 'Product innovation & patents',
+    body: 'I design and patent new cooking products — rotating and static ovens, flattops, grills, smokers — including the patented Multipurpose Cooking Appliance that combines many methods in one.',
   },
   {
-    icon: Cog,
-    title: 'Mixers, dough & production',
-    body: 'Spiral mixers, sheeters, and dough tools sized to your volume, so your kitchen keeps up on a Friday night without burning out the team.',
+    icon: Settings2,
+    title: 'Operations leadership',
+    body: 'I streamline high-volume operations, manage operating and capital budgets, and cut costs while raising quality, throughput, and bottom-line profit.',
   },
   {
-    icon: UtensilsCrossed,
-    title: 'Pasta & specialty tools',
-    body: 'Extruders, sfoglia tools, and the small equipment that makes authentic Italian dishes repeatable, shift after shift.',
+    icon: Ruler,
+    title: 'Engineering & product development',
+    body: 'An electrical engineer by training, I take products from concept through reliability testing, QA, and manufacturing at scale.',
   },
   {
-    icon: ClipboardCheck,
-    title: 'Try-before-you-buy consulting',
-    body: 'Come demo equipment hands-on in our showroom. I walk you through options, run the numbers, and help you commit with confidence.',
+    icon: Users,
+    title: 'Team building & strategy',
+    body: 'I transform low-performing teams into high-caliber workforces and set the strategic vision and leadership that grows a business.',
   },
 ]
 
@@ -36,14 +36,14 @@ export default function WhatIDo() {
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="font-serif text-4xl sm:text-5xl text-[#2B211C] leading-tight mb-6 max-w-2xl">
-            Helping restaurants build the right kitchen
+            From invention to operations
           </h2>
         </Reveal>
         <Reveal delay={0.1}>
           <p className="text-lg text-[#6B5D52] leading-relaxed max-w-2xl mb-14">
-            At Italiana FoodTech I pair D.C.-area restaurants with professional
-            Italian equipment and let them test it before they invest &mdash; then
-            I stay in it with them, from selection to install.
+            Three decades across engineering, product innovation, and operations
+            leadership in the cooking-equipment industry &mdash; building products
+            people rely on and teams that perform.
           </p>
         </Reveal>
 

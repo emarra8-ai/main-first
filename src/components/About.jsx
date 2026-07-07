@@ -32,31 +32,34 @@ export default function About() {
           </Reveal>
           <Reveal delay={0.05}>
             <h2 className="font-serif text-4xl sm:text-5xl text-[#2B211C] leading-tight mb-6">
-              From Naples to Washington, D.C.
+              Inventor, engineer, and operations leader.
             </h2>
           </Reveal>
 
-          {/* ✏️ EDIT YOUR BIO — this is a draft in your voice. Rewrite freely. */}
+          {/* ✏️ EDIT YOUR BIO — drafted from your resume. Rewrite freely. */}
           <Reveal delay={0.1}>
             <div className="space-y-5 text-lg text-[#6B5D52] leading-relaxed max-w-2xl">
               <p>
-                I grew up in Naples, where good food isn&rsquo;t a luxury &mdash;
-                it&rsquo;s the center of everything. For more than 20 years
-                I&rsquo;ve carried that standard into the Washington, D.C.
-                restaurant world, helping chefs and owners bring genuinely
-                authentic Italian cooking to their guests.
+                I&rsquo;m an entrepreneur, inventor, and strategic operations
+                executive who has spent a career turning ideas into products
+                &mdash; and low-performing teams into high-caliber ones. I pair
+                strong engineering acumen with hands-on operations leadership to
+                streamline high-volume production, sharpen quality, and grow the
+                bottom line.
               </p>
               <p>
-                Today I&rsquo;m Director of Sales &amp; Business Development at
-                Italiana FoodTech, where we distribute professional Italian
-                kitchen equipment &mdash; pizza ovens, mixers, pasta tools &mdash;
-                and let restaurants try it in our showroom before they buy. Along
-                the way I co-founded a specialty-food import business and
-                consulted for restaurants across the region.
+                I co-founded <strong>Marra Forni</strong>, where as Vice President
+                I drove engineering and helped make it one of the fastest-growing,
+                most innovative brick-oven manufacturers in the country. I later
+                founded <strong>No.1 Grills</strong> and invented &mdash; and
+                patented &mdash; the first-of-its-kind Multipurpose Cooking
+                Appliance (U.S. Patent 9,980,606).
               </p>
               <p>
-                What drives me is simple: match the right kitchen to the right
-                team, so the food that comes out of it tastes the way it should.
+                Trained as an electrical engineer and certified across the
+                culinary world &mdash; from Vera Pizza Napoletana pizzaiolo to
+                sommelier &mdash; I care most about one thing: designing products
+                and operations that deliver, consistently.
               </p>
             </div>
           </Reveal>

@@ -1,6 +1,6 @@
 # Emiliano Marra — Personal Website
 
-A clean, modern single-page site for **Emiliano Marra** — Restaurant Equipment Specialist & Consultant, Washington, D.C.
+A clean, modern single-page site for **Emiliano Marra** — Operations Executive, Inventor & Engineer, Washington, D.C.
 
 Built with **React + Vite + Tailwind CSS v4 + Framer Motion (`motion/react`)**. It compiles to plain static files (HTML/CSS/JS), so it deploys anywhere — **GitHub Pages, Netlify, or Vercel** — with no backend.
 
