@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+/* =============================================================
+   THEME — Tailwind v4 design tokens
+   Inter is the default sans (per the hero spec). Fraunces is an
+   editorial serif used for section headings for an Italian,
+   magazine-like feel. The color tokens below are the warm
+   Italian palette (deep red / terracotta / cream / espresso)
+   and can be reused as bg-brand-red, text-espresso, etc.
+   ============================================================= */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Fraunces", ui-serif, Georgia, "Times New Roman", serif;
+
+  /* Italian warm palette */
+  --color-cream: #faf6ef;       /* page / soft backgrounds */
+  --color-cream-2: #f3ebdd;     /* slightly deeper cream */
+  --color-espresso: #2b211c;    /* primary dark text */
+  --color-espresso-soft: #6b5d52;/* muted body text */
+  --color-brand-red: #8e2a24;   /* deep Italian red — primary accent */
+  --color-terracotta: #c65d3b;  /* terracotta — secondary accent */
+  --color-terracotta-2: #b8502f;/* terracotta for links/CTAs */
+  --color-line: #efe4d8;        /* hairline borders */
+}
+
+/* =============================================================
+   Typewriter cursor blink (from the hero spec)
+   ============================================================= */
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* =============================================================
+   Base niceties
+   ============================================================= */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Anchored sections clear the fixed navbar when scrolled to */
+section[id] {
+  scroll-margin-top: 84px;
+}

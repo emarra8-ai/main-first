@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#FAF6EF"/>
+  <rect x="0" y="0" width="1200" height="12" fill="#8E2A24"/>
+  <rect x="0" y="618" width="1200" height="12" fill="#C65D3B"/>
+  <text x="80" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="600" fill="#2B211C">Emiliano Marra</text>
+  <text x="82" y="320" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#8E2A24">Restaurant Equipment Specialist &amp; Consultant</text>
+  <text x="82" y="400" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#6B5D52">Professional Italian kitchen equipment · Washington, D.C.</text>
+  <text x="82" y="444" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#6B5D52">Pizza ovens · Mixers · Pasta tools · Try before you buy</text>
+  <text x="1120" y="120" text-anchor="end" font-family="Georgia, serif" font-size="60" fill="#C65D3B">&#10033;</text>
+</svg>
