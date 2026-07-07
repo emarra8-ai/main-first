@@ -1,7 +1,8 @@
 import Reveal from './Reveal.jsx'
 
 // Resolve public assets in a way that works on GitHub Pages subpaths too.
-const HEADSHOT = `${import.meta.env.BASE_URL}assets/headshot-placeholder.svg`
+// ✏️ To swap your photo later, drop a new file in /public/assets/ and change this name.
+const HEADSHOT = `${import.meta.env.BASE_URL}assets/headshot.png`
 
 export default function About() {
   return (
